@@ -1,0 +1,87 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,eye_left,khác giá trị (IoU=0.91),unknown,open,mine,4.5; 4.4-1,"Giữ unknown: đốm phản xạ LED trên tròng kính che mắt, không thấy khe mắt"
+D01.png,face,eye_right,khác giá trị (IoU=0.91),unknown,open,mine,4.5; 4.4-1,"Giữ unknown: đốm phản xạ LED trên tròng kính che mắt, không thấy khe mắt"
+D01.png,face,gaze_zone,khác giá trị (IoU=0.91),other,road,mine,4.5,Giữ other: không chắc hướng nhìn (đang nhìn kính cầm tay)
+D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1: mắt unknown thì điểm mắt phải có cờ che
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,ambiguous,4.6,Mở lại D01 xem khóe miệng phải có bị che không rồi chốt cờ
+D02.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.36,,peer,4.4-5,"Đã sửa trong v2: box person bị xoay 270° nên tọa độ export tràn ảnh; đổi thành box thẳng [6,229,1275,900], khớp box của bạn (IoU 0.97)"
+D02.png,face,eye_left,khác giá trị (IoU=0.85),unknown,open,mine,4.5; 4.4-1,"Giữ unknown: mắt sau tròng kính, không thấy rõ khe mắt mở"
+D02.png,face,eye_right,khác giá trị (IoU=0.85),unknown,open,mine,4.5; 4.4-1,"Giữ unknown: mắt sau tròng kính, không thấy rõ khe mắt mở"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.85),other,road,mine,4.5,"Giữ other: đầu ngửa, không chắc nhìn đường"
+D02.png,hand,on_wheel,khác giá trị (IoU=0.95),unknown,yes,ambiguous,4.7,"Tay phải sát camera ở rìa trái, không thấy rõ chạm vô lăng; giữ unknown, hỏi coach"
+D02.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.4-5,"Đã sửa trong v2: box person bị xoay 270° nên tọa độ export tràn ảnh; đổi thành box thẳng [6,229,1275,900], khớp box của bạn (IoU 0.97)"
+D02.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D02.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D03.png,face,gaze_zone,khác giá trị (IoU=0.88),other,road,mine,4.5,"Giữ other: đang ngửa đầu uống nước, không nhìn đường"
+D03.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,mouth_left.outside,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,lip_upper.outside,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D03.png,face13,lip_lower.outside,khác cờ,1,0,mine,4.6,Miệng bị chai nước che nên phải có cờ; nên chỉ giữ một cờ (occluded nếu đoán chắc vị trí)
+D04.png,hand,side,khác giá trị (IoU=0.73),right,left,peer,4.4-2; 4.7,Đã sửa trong v2: đổi side 2 tay (tay bên trái người có y lớn hơn trên ảnh xoay 90°)
+D04.png,hand,side,khác giá trị (IoU=0.71),left,right,peer,4.4-2; 4.7,Đã sửa trong v2: đổi side 2 tay (tay bên trái người có y lớn hơn trên ảnh xoay 90°)
+D04.png,face,gaze_zone,khác giá trị (IoU=0.97),other,lap,mine,4.5,"Giữ other: tay che mặt, không chắc nhìn đùi"
+D04.png,face,glasses,khác giá trị (IoU=0.97),unknown,clear,mine,4.5,"Giữ unknown: chỉ thấy gọng, vùng mắt bị tay che"
+D04.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ: mắt bị tay che (file của bạn eye unknown nhưng không có cờ, cabin_check WARN)"
+D05.png,face,gaze_zone,khác giá trị (IoU=0.90),other,road,mine,4.5,"Giữ other: đang nghe điện thoại, không chắc nhìn đường"
+D05.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1: tay và điện thoại che khóe miệng
+D06.png,face,eye_right,khác giá trị (IoU=0.81),unknown,open,mine,4.4-1; 4.5,Giữ unknown: mắt phải ở phía khuất của mặt nghiêng
+D06.png,face,glasses,khác giá trị (IoU=0.81),unknown,clear,ambiguous,4.5,"Tròng tối trên NIR, không phân biệt clear/sun; giữ unknown, hỏi coach (câu leo thang 2)"
+D06.png,person,seatbelt,khác giá trị (IoU=0.96),unknown,not_worn,ambiguous,4.7,"Không thấy dây nhưng tay che ngang ngực; giữ unknown, hỏi coach"
+D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+D06.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6; 4.5,Giữ occluded=1 theo eye=unknown
+S01_ir.png,frame_meta,camera_blocked,khác giá trị,no,,mine,4.3,Không sửa; file của bạn thiếu tag frame_meta ở S01_ir (cabin_check ERROR)
+S01_ir.png,frame_meta,light,khác giá trị,unknown,,mine,4.3,Không sửa; file của bạn thiếu tag frame_meta ở S01_ir (cabin_check ERROR)
+S01_ir.png,frame_meta,modality,khác giá trị,ir,,mine,4.3,Không sửa; file của bạn thiếu tag frame_meta ở S01_ir (cabin_check ERROR)
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach); 4.4-3","Không sửa; báo bạn: ảnh có trẻ em không gán, và seat=driver sai (camera chỉ thấy hàng ghế sau)"
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach); 4.4-3","Không sửa; báo bạn: ảnh có trẻ em không gán, và seat=driver sai (camera chỉ thấy hàng ghế sau)"
+S02_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2; 4.5,"Giữ box face: người lớn OMS cần face, vẫn thấy mũi và má dưới tóc mái"
+S02_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2; 4.5,"Giữ box face: người lớn OMS cần face, vẫn thấy mũi và má dưới tóc mái"
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S03_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)","Không sửa; ảnh có trẻ em theo coach không gán; báo bạn seat=driver sai (4.4-3), đúng là rear_middle"
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S03_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)","Không sửa; ảnh có trẻ em theo coach không gán; báo bạn seat=driver sai (4.4-3), đúng là rear_middle"
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S05_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S05_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+S08_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,"3 (ảnh có trẻ em: không gán, theo coach)",Không sửa; ảnh có trẻ em theo coach không gán
+D02.png,person,seatbelt,"khác giá trị (lộ ra sau khi sửa box, IoU=0.97)",worn_correct,worn_incorrect,ambiguous,4.7,"Dây chéo thấy gần cổ nhưng phần dưới bị tay che; giữ worn_correct, hỏi coach"
